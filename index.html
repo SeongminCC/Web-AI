@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web-AI 발표</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="title-slide">
+      
+      <video id="title-video" autoplay loop muted>
+        <source src="title_video.mp4" type="video/mp4" />
+      </video>
+      <button id="toggle-mute">소리 켜기/끄기</button>
+
+      <button id="startButton" class="start-button">START</button>
+    </div>
+
+    <div id="falling-letters" class="falling-letters">
+      <span class="falling-letter"> 
+        Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI 
+        Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AIWeb-AI Web-AI Web-AI 
+        Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI 
+        Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI 
+        Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI 
+        Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI 
+        Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI 
+        Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI 
+        Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI 
+        Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI 
+        Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI 
+        Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI 
+        Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI 
+        Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI 
+        Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI 
+        Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI 
+        Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI 
+        Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI
+        Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI 
+        Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI 
+        Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI  
+        Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI 
+        Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI 
+        Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI 
+        Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI 
+        Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI 
+        Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI 
+        Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI 
+        Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI 
+        Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI 
+        Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI 
+        Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI 
+        Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI 
+        Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI 
+        Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI 
+        Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI 
+        Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI 
+        Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI 
+        Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI 
+        Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI 
+        Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI 
+        Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI 
+        Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI 
+        Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI 
+        Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI 
+        Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI 
+        Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI 
+        Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI 
+        Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI 
+        Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI 
+        Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI
+        Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI 
+        Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI 
+        Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI  
+        Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI 
+        Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI 
+        Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI Web-AI 
+ 
+      </span>
+    </div>
+
+    <div class="slide">
+      <h1>Web-AI</h1>
+
+      <img src="title.png" alt="Title" width="1000px" height="auto">
+    </div>
+
+    <div class="slide">
+      <h2>왜 product 인가요?</h2>
+      <p>
+        프로젝트의 끝맺음을 서비스로 완성시키자
+      </p>
+    </div>
+
+    <div class="slide">
+      <h2>놀이터를 만들자</h2>
+      <p>
+        각자의 놀이기구들을 모아 놀이터를 구축하자
+      </p>
+      
+    </div>
+
+    <div class="slide">
+        <h2>MBTI 분류 챗봇</h2>
+        <button class="picture-button" data-image-src="MBTI_GAME.png">화면 출력</button>
+        <div id="picture1"></div>
+      </div>
+
+    <div class="slide">
+        <h1 id="thanks" class="thanks">감사합니다</h1>
+    </div>
+
+    <div class="button-container">
+      <button id="prevButton" class="prev-button" onclick="prevPage()">이전</button>
+      <button id="nextButton" class="next-button" onclick="nextPage()">다음</button>
+    </div>
+
+    <script src="scripts.js"></script>
+  </body>
+</html>
+ 
